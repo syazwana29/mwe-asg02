@@ -23,6 +23,10 @@ const routes: Routes = [
     path: 'start',
     loadChildren: () => import('./start/start.module').then( m => m.StartPageModule)
   },
+  {
+    path: 'direction',
+    loadChildren: () => import('./direction/direction.module').then( m => m.DirectionPageModule)
+  },
 ];
 
 @NgModule({
