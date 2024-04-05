@@ -3,8 +3,23 @@
     <ion-title>profile</ion-title>
   </ion-toolbar>
 </ion-header>
-
+<!-- 
 <ion-content [fullscreen]="true">
-  <body style="background-image: url('assets/background1.png');">
-  </body>
-</ion-content>
+  <body style="background-image: url('assets/background1.png');"> -->
+
+
+<ion-content>
+  <ion-segment value="default">
+    <ion-segment-button value="default">
+      <ion-label>User Profile</ion-label>
+    </ion-segment-button>
+    <ion-segment-button value="segment">
+      <ion-label>Settings</ion-label>
+    </ion-segment-button>
+  </ion-segment>
+
+  <img src="assets/profile.png">
+
+  </ion-content>
+  <!-- </body>
+</ion-content> -->
