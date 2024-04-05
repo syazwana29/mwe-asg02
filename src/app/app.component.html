@@ -32,51 +32,22 @@
 <ion-router-outlet id="content" main></ion-router-outlet>
 
 
-<ion-content [fullscreen]="true">
-  <h5>Hello, Syazwana</h5>
-  <p>14th March 2024</p>
 
-  <ion-button class="guide-button" color="light">Guide</ion-button>
+  <ion-tabs>
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button tab="HOME">
+        <ion-icon name="moon"></ion-icon>
+        <ion-label>HOME</ion-label>
+      </ion-tab-button>
 
-  <ion-card class="start" color="tertiary">
-    <ion-card-header>
-      <ion-card-title>
-        Thursday
-      </ion-card-title>
-    </ion-card-header>
-    <ion-card-content>
-      Sleep time : 9:00pm - 5:00am
-    </ion-card-content>
-    <ion-button class="start-button" color="light">START</ion-button>
-  </ion-card>
+      <ion-tab-button tab="activity">
+        <ion-icon name="star"></ion-icon>
+        <ion-label>ACTIVITY</ion-label>
+      </ion-tab-button>
 
-  <p>ACTIVITY SUMMARY</p>
-  <P>See All</P>
-
-  <ion-card class="start" color="secondary">
-    <ion-card-header>
-      <ion-card-title>
-        Your Sleepings Habits Over Time
-      </ion-card-title>
-    </ion-card-header>
-    <ion-card-content>
-      <img src="assets/graphsummary.png">
-    </ion-card-content>
-  </ion-card>
-
-  <ion-tab-button tab="HOME">
-    <ion-icon name="moon"></ion-icon>
-    <ion-label>HOME</ion-label>
-  </ion-tab-button>
-
-  <ion-tab-button tab="activity">
-    <ion-icon name="star"></ion-icon>
-    <ion-label>ACTIVITY</ion-label>
-  </ion-tab-button>
-
-  <ion-tab-button tab="profile">
-    <ion-icon name="person-circle"></ion-icon>
-    <ion-label>PROFILE</ion-label>
-  </ion-tab-button>
-
-</ion-content>
+      <ion-tab-button tab="profile">
+        <ion-icon name="person-circle"></ion-icon>
+        <ion-label>PROFILE</ion-label>
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>
