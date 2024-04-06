@@ -47,6 +47,10 @@ const routes: Routes = [
     path: 'guide',
     loadChildren: () => import('./guide/guide.module').then( m => m.GuidePageModule)
   },
+  {
+    path: 'stop',
+    loadChildren: () => import('./stop/stop.module').then( m => m.StopPageModule)
+  },
 ];
 
 @NgModule({
