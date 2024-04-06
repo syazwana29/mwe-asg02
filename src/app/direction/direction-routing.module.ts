@@ -7,7 +7,11 @@ const routes: Routes = [
   {
     path: '',
     component: DirectionPage
+  },  {
+    path: 'sleep',
+    loadChildren: () => import('./sleep/sleep.module').then( m => m.SleepPageModule)
   }
+
 ];
 
 @NgModule({
