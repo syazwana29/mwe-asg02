@@ -27,6 +27,22 @@ const routes: Routes = [
     path: 'direction',
     loadChildren: () => import('./direction/direction.module').then( m => m.DirectionPageModule)
   },
+  {
+    path: 'resources',
+    loadChildren: () => import('./resources/resources.module').then( m => m.ResourcesPageModule)
+  },
+  {
+    path: 'ratings',
+    loadChildren: () => import('./ratings/ratings.module').then( m => m.RatingsPageModule)
+  },
+  {
+    path: 'music',
+    loadChildren: () => import('./music/music.module').then( m => m.MusicPageModule)
+  },
+  {
+    path: 'widget',
+    loadChildren: () => import('./widget/widget.module').then( m => m.WidgetPageModule)
+  },
 ];
 
 @NgModule({
