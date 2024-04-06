@@ -43,6 +43,10 @@ const routes: Routes = [
     path: 'widget',
     loadChildren: () => import('./widget/widget.module').then( m => m.WidgetPageModule)
   },
+  {
+    path: 'guide',
+    loadChildren: () => import('./guide/guide.module').then( m => m.GuidePageModule)
+  },
 ];
 
 @NgModule({
