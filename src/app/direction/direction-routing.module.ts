@@ -14,6 +14,10 @@ const routes: Routes = [
   {
     path: 'awake',
     loadChildren: () => import('./awake/awake.module').then( m => m.AwakePageModule)
+  },
+  {
+    path: 'nightmare',
+    loadChildren: () => import('./nightmare/nightmare.module').then( m => m.NightmarePageModule)
   }
 
 ];
