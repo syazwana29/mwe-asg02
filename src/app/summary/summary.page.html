@@ -5,16 +5,14 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Summary</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <body style="background-image: url('assets/background1.png');">
+    <ion-header style="color:white;">Summary</ion-header>
+
 
   <img src="assets/profile.png" style="margin-left:-100px"> 
-  <h3>Dayangku Syazwana</h3>
+ <ion-header style="color:white;">Dayangku Syazwana</ion-header>
 
-  <ion-card color="secondary">
+  <ion-card color="dark">
     <ion-card-header>
       Your Sleeping Habits Over Time
     </ion-card-header>
@@ -23,7 +21,7 @@
     </ion-card-content>
   </ion-card>
 
-  <ion-card color="secondary">
+  <ion-card color="dark">
     <ion-card-header>
       Your Entries
     </ion-card-header>
@@ -33,4 +31,5 @@
   </ion-card>
 
   <p routerLink="/tracker">See All</p>
+</body>
 </ion-content>
