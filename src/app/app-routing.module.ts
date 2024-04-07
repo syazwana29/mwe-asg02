@@ -63,6 +63,10 @@ const routes: Routes = [
     path: 'tracker',
     loadChildren: () => import('./tracker/tracker.module').then( m => m.TrackerPageModule)
   },
+  {
+    path: 'plans2',
+    loadChildren: () => import('./plans2/plans2.module').then( m => m.Plans2PageModule)
+  },
 ];
 
 @NgModule({
