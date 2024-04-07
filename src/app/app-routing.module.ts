@@ -32,10 +32,6 @@ const routes: Routes = [
     loadChildren: () => import('./resources/resources.module').then( m => m.ResourcesPageModule)
   },
   {
-    path: 'ratings',
-    loadChildren: () => import('./ratings/ratings.module').then( m => m.RatingsPageModule)
-  },
-  {
     path: 'music',
     loadChildren: () => import('./music/music.module').then( m => m.MusicPageModule)
   },
