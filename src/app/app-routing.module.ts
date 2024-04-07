@@ -67,6 +67,10 @@ const routes: Routes = [
     path: 'plans2',
     loadChildren: () => import('./plans2/plans2.module').then( m => m.Plans2PageModule)
   },
+  {
+    path: 'light',
+    loadChildren: () => import('./light/light.module').then( m => m.LightPageModule)
+  },
 ];
 
 @NgModule({
