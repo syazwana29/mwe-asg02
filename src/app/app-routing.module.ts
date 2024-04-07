@@ -40,14 +40,6 @@ const routes: Routes = [
     loadChildren: () => import('./music/music.module').then( m => m.MusicPageModule)
   },
   {
-    path: 'widget',
-    loadChildren: () => import('./widget/widget.module').then( m => m.WidgetPageModule)
-  },
-  {
-    path: 'guide',
-    loadChildren: () => import('./guide/guide.module').then( m => m.GuidePageModule)
-  },
-  {
     path: 'stop',
     loadChildren: () => import('./stop/stop.module').then( m => m.StopPageModule)
   },
@@ -66,10 +58,6 @@ const routes: Routes = [
   {
     path: 'plans2',
     loadChildren: () => import('./plans2/plans2.module').then( m => m.Plans2PageModule)
-  },
-  {
-    path: 'light',
-    loadChildren: () => import('./light/light.module').then( m => m.LightPageModule)
   },
 ];
 
