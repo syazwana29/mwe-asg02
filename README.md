@@ -1,6 +1,10 @@
 # MWE AS3 ASSIGNMENT 2
 
-# These are the steps to begin testing in Android Studio:
+# TABLE OF CONTENTS
+1. ANDROID STUDIO
+2. STEPS ON THE APP
+   
+# 1. These are the steps to begin testing in Android Studio:
 
 - Select "Open an existing Android Studio project" after starting Android Studio. 
 - Open your project folder and choose the project file (generally ends in.iml).
@@ -21,7 +25,7 @@ dependencies { // JUnit unit testing implementation testImplementation 'junit:ju
 - Make a test class and include test methods in it for unit testing. By choosing "Run" or "Debug" next to the test class, you may initiate these tests.
 - Android Studio will show the test results in the "Run" or "Debug" window once the tests are finished. Verify the results to find out if the tests were successfully completed.
 
-# These are the steps on the app, InsomniCare
+# 2. These are the steps on the app, InsomniCare
 
 # HOME PAGE
 - It will show you 2 buttons that you can click, START and See All.
