@@ -39,17 +39,17 @@ dependencies { // JUnit unit testing implementation testImplementation 'junit:ju
 - Sleep Tracker will direct you to the tracker page.
 - Directed Interventions will direct you to the direction page.
 
-  # SLEEP PLANS PAGE
-  - Contain the time for user to sleep during week days and weekend.
+# SLEEP PLANS PAGE
+- Contain the time for user to sleep during week days and weekend.
  
-  # SLEEP TRACKER PAGE
-  - Contain tracked time of when user fell asleep and woke up at night.
-  - When user starts the timer, the tracker will start to track the time user fell asleep.
-  - When user stops the timer, the tracker will start to track the timer user wakes up.
+# SLEEP TRACKER PAGE
+- Contain tracked time of when user fell asleep and woke up at night.
+- When user starts the timer, the tracker will start to track the time user fell asleep.
+- When user stops the timer, the tracker will start to track the timer user wakes up.
  
-  # DIRECTED INTERVENTIONS PAGE
-  - Contains 3 cards, Trouble Falling Asleep, Awake in the middle of the night and Having Nightmare
-  - Each cards contain tips how to overcome or avoid the specified titles.
+# DIRECTED INTERVENTIONS PAGE
+- Contains 3 cards, Trouble Falling Asleep, Awake in the middle of the night and Having Nightmare
+- Each cards contain tips how to overcome or avoid the specified titles.
  
-  # PROFILE PAGE
-  - Contains contact details of user
+# PROFILE PAGE
+- Contains contact details of user
